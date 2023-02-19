@@ -54,10 +54,11 @@ section{
 ;
 }
 
-.support-page{
+footer{
     background: #009473;
     color: white;
 }
+
 #home{
     padding-top:0px !important;
 }
@@ -69,3 +70,4 @@ section{
     backdrop-filter: blur(10px);
 
 }
+
