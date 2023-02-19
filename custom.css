@@ -61,3 +61,11 @@ section{
 #home{
     padding-top:0px !important;
 }
+#home::before{
+    background: #C62368;
+}
+#navbar{
+    background: rgba(255, 255, 255, 0.66) !important;
+    backdrop-filter: blur(10px);
+
+}
