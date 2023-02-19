@@ -1,199 +1,326 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link href="custom.css" rel="stylesheet" type="text/css">
-    <title>masto.melbourne</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link href="custom.css" rel="stylesheet" type="text/css">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+<link rel="manifest" href="/favicon/site.webmanifest">
+  <title>masto.melbourne</title>
 </head>
+
 <body data-bs-spy="scroll" data-bs-target="#navbar">
-    <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary d-flex flex-wrap justify-content-center py-3 mb-4 fixed-top shadow-lg" id="navbar">
-            <div class="container-fluid ">
-                <a class="navbar-brand" href="index.html">
-                  <img src="images/mastodon svg.svg" alt="Logo" class="d-inline-block align-text-top px-4" height="24px">
-                  masto.melbourne</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="nav navbar-nav me-auto mb-2 mb-lg-0 d-flex px-5">
-                        <li class="nav-item">
-                          <a class="nav-link" aria-current="page" href="#home">Home</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#about">About</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#features">Features</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#team">Meet The Team</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#support">Support Us</a>
-                        </li>
-                       
-                          
-                      </ul>
-                </div>
-            </div>
-           
-        </nav>
-<section id="home"> <div class="container-fluid col-xxl-8 mt-6 px-4 py-5 hero">
-  <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-    <div class="col-10 col-sm-8 col-lg-6">
-      <img src="images/flinders-street.jpg" class="d-block mx-lg-auto img-fluid rounded shadow-lg" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
-    </div>
-    <div class="col-lg-6 hero-text py-3 mx-0 rounded shadow-lg">
-      <h1 class="display-5 fw-bold lh-1 mb-3">masto.melbourne</h1>
-      <p class="lead"> Welcome to masto.melbourne, the newest Mastodon instance designed specifically for users in the beautiful city of Melbourne, Australia! We are excited to provide a safe and inclusive platform for Melbournians to connect, share, and communicate with each other.</p>
-    </div>
-  </div>
-</div>
-<div class="spacer layer1"></div>
-</header></section>
-       
-    <main>
-      <section id="about">
-        <div class="container px-4 py-5"  >
-            <h2 class="pb-2 border-bottom">About Us</h2>
-            <p class="text-muted">At masto.melbourne, we value community, respect, and diversity. Our goal is to provide a welcoming and supportive space for people of all backgrounds, identities, and beliefs. We encourage open discussion and constructive dialogue while maintaining a harassment-free environment.</p>
+  <header>
+    <nav
+      class="navbar navbar-expand-lg bg-body-tertiary d-flex flex-wrap justify-content-center py-3 mb-4 fixed-top shadow-lg"
+      id="navbar">
+      <div class="container-fluid ">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/mastodon svg.svg" alt="Logo" class="d-inline-block align-text-top px-4" height="24px">
+          masto.melbourne</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="nav nav-pills me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">Meet The Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#support">Support Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="https://climate.stripe.com/LyKJ5B" class="nav-link">Climate</a>
+            </li>
+
+          </ul>
+
+          <div class="nav-item px-5 float-end"><a class="btn btn-mastodon fw-bold text-white float-end" role="button" href="http://social.masto.melbourne" aria-disabled="true">Explore masto.melbourne</a></div>
+        </div>
+      </div>
+
+    </nav>
+    <section id="home">
+      <div class="container-fluid col-xxl-8 mt-6 px-4 py-5 hero bg-gradient">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="images/flinders-street.jpg" class="d-block mx-lg-auto img-fluid rounded shadow-lg"
+              alt="Flinder Street Station" width="700" height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6 hero-text py-3 px-3 mx-0 rounded shadow-lg">
+            <h1 class="display-5 fw-bold lh-1 mb-3">masto.melbourne</h1>
+            <p class="lead"> Welcome to <b>masto.melbourne</b>, the newest Mastodon instance designed specifically for
+              users in
+              the beautiful city of Melbourne, Australia! We are excited to provide a safe and inclusive platform for
+              Melbournians to connect, share, and communicate with each other.</p>
+
+              <a class="btn btn-mastodon fw-bold text-white btn-lg" role="button" href="http://social.masto.melbourne" aria-disabled="true">Explore masto.melbourne</a>
+          </div>
+        </div>
+      </div>
+      <div class="spacer layer1"></div>
+    </section>
+  </header>
+  <main>
+    <section id="about">
+      <div class="container px-4 py-5">
+        <div class="row">
+          <h2 class="pb-2 border-bottom">About Us</h2>
+          <div class="col-md-7">
+
+            <p class="text-muted">Welcome to <b>masto.melbourne</b>! We are a Mastodon instance designed specifically
+              for users
+              in Melbourne, Australia. Our platform is built around community, respect, and diversity, and we are
+              committed to providing a safe and inclusive space for all users.</p>
+            <p class="text-muted">At <b>masto.melbourne</b>, we believe that social media should be a tool for
+              connection and
+              communication, not a source of negativity or division. Our team is dedicated to fostering a positive and
+              supportive environment where users can engage in constructive dialogue, build relationships, and share
+              their
+              interests and experiences.</p>
+            <p class="text-muted">Our platform features a local timeline that displays posts from users in Melbourne,
+              allowing you to connect with others in your area and stay up-to-date on local events and news. We also
+              offer
+              a unique set of custom emoji specific to Melbourne that you can use in your posts and conversations.</p>
+            <p class="text-muted">Our team of moderators is committed to maintaining a safe and inclusive environment
+              for
+              all users. We have a clear set of community guidelines and a reporting system to address any issues that
+              may
+              arise. We take your privacy seriously and have strict policies in place to protect your personal
+              information.</p>
+            <p class="text-muted">At <b>masto.melbourne</b>, we are excited to provide a space where users can come
+              together to
+              connect, share, and communicate. We invite you to join our community and help us build a vibrant and
+              supportive space for all Melbournians.</p>
+          </div>
+          <div class="col-md-3">
+            <img class="img-responsive rounded-4 shadow-p" src="images/melbourne.jpg" />
+          </div>
         </div>
 
-        <div class="spacer layer4"></div>
-</section>
-<section id="features">
+      </div>
 
-        <div class="container px-4 py-5">
-            <h2 class="pb-2 border-bottom">Features</h2>
-            <div class="row g-4 py-5 row-cols-1 row-cols-lg-2">
-              <div class="feature col">
-                <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3 rounded shadow-lg">
-                <span class="material-symbols-outlined px-2 py-2" width="1em" height="1em">
-                    local_library
-                    </span>
-                </div>
-                <h3 class="fs-2">Local Timeline</h3>
-                <p>The local timeline displays posts from users in Melbourne, allowing you to connect with others in your area and keep up with local events and news.</p>
-              </div>
-              <div class="feature col">
-                <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3 rounded shadow-lg">
-                  <span class="material-symbols-outlined px-2 py-2 width="1em" height="1em"">
+      <div class="spacer layer4"></div>
+    </section>
+    <section id="features">
+
+      <div class="container px-4 py-5">
+        <h2 class="pb-2 border-bottom">Features</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-2">
+          <div class="feature col">
+            <div
+              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-mastodon bg-gradient fs-2 mb-3 rounded shadow-lg">
+              <span class="material-symbols-outlined px-2 py-2" width="1em" height="1em">
+                local_library
+              </span>
+            </div>
+            <h3 class="fs-2">Local Timeline</h3>
+            <p>The local timeline displays posts from users in Melbourne, allowing you to connect with others in your
+              area and keep up with local events and news.</p>
+          </div>
+          <div class="feature col">
+            <div
+              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-mastodon bg-gradient fs-2 mb-3 rounded shadow-lg">
+              <span class="material-symbols-outlined px-2 py-2 width=" 1em" height="1em"">
                     add_reaction
                     </span>
                 </div>
-                <h3 class="fs-2">Custom Emoji</h3>
-                <p>We offer a unique set of custom emoji specific to Melbourne that you can use in your posts and conversations.</p>
-              </div>
-              <div class="feature col">
-                <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3 rounded shadow-lg">
-                  <span class="material-symbols-outlined px-2 py-2 width="1em" height="1em"">
+                <h3 class=" fs-2">Custom Emoji</h3>
+                <p>We offer a unique set of custom emoji specific to Melbourne that you can use in your posts and
+                  conversations.</p>
+            </div>
+            <div class="feature col">
+              <div
+                class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-mastodon bg-gradient fs-2 mb-3 rounded shadow-lg">
+                <span class="material-symbols-outlined px-2 py-2 width=" 1em" height="1em"">
                     add_moderator
                     </span>
                 </div>
-                <h3 class="fs-2">Active Moderation</h3>
-                <p>Our team of moderators is dedicated to maintaining a safe and inclusive environment for all users. We have a clear set of community guidelines and a reporting system to address any issues that may arise.</p>
+                <h3 class=" fs-2">Active Moderation</h3>
+                  <p>Our team of moderators is dedicated to maintaining a safe and inclusive environment for all users.
+                    We have a clear set of community guidelines and a reporting system to address any issues that may
+                    arise.</p>
               </div>
               <div class="feature col">
-                <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3 rounded shadow-lg">
-                  <span class="material-symbols-outlined px-2 py-2 width="1em" height="1em"">
+                <div
+                  class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-mastodon bg-gradient fs-2 mb-3 rounded shadow-lg">
+                  <span class="material-symbols-outlined px-2 py-2 width=" 1em" height="1em"">
                     mindfulness
                     </span>
                 </div>
-                <h3 class="fs-2">Local Focus</h3>
-                <p>masto.melbourne is designed with a local focus, so you can connect with other users who share your interests and experiences in Melbourne. From local events to community happenings, our platform provides a space to stay up-to-date and engaged with your city. Whether you're a local or new to the area, masto.melbourne offers a unique opportunity to connect with like-minded people in your community.</p>
+                <h3 class=" fs-2">Local Focus</h3>
+                    <p><b>masto.melbourne</b> is designed with a local focus, so you can connect with other users who
+                      share
+                      your interests and experiences in Melbourne. From local events to community happenings, our
+                      platform provides a space to stay up-to-date and engaged with your city. Whether you're a local or
+                      new to the area, <b>masto.melbourne</b> offers a unique opportunity to connect with like-minded
+                      people in
+                      your community.</p>
+                </div>
               </div>
-            </div>
 
-           
-          </div>       
-</section>
-          
-          
-          <section id="team">
-            <div class="spacer layer2"></div>
-          <div class="container-fluid px-4 py-5 team-page">
-            <div class="container">
-             
-            <h2 class="pb-2 border-bottom text-white">Meet The Team</h2>
-            
-              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-3">
-                <div class="col">
-                  <div class="card shadow-lg">
-                    <img class="card-img-top border-bottom shadow-lg rounded" src="images/finneh.png">
-                    <div class="card-body">
-                      <h5 class="card-title">Jacoob (Finneh)</h5> <span class="badge rounded-pill text-bg-primary">Operator</span>
-                      <p class="card-text">Operator of masto.melbourne, a decentralized social media platform for people living or visiting Melbourne, Australia</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card shadow-lg">
-                    <img class="card-img-top border-bottom shadow-lg rounded" src="images/binaryadd.jpg">
-                    <div class="card-body">
-                      <h5 class="card-title">BinaryADD</h5> <span class="badge rounded-pill text-bg-success">Administrator</span>
-                      <p class="card-text">Bio Text Goes Here</p>
-                    </div>
-                  </div>
-                </div>
 
             </div>
-           
-             
-      
-             
-            </div>
-            
-            </div>
-            
-            <div class="spacer layer3"></div>
-            </section>
-            <section id="support">
-            <div class="container-fluid px-4 py-5">
-           <div class="container"><h2 class="pb-2 border-bottom">Support Us</h2></div>
-              
-              <div>
-                <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
-                <stripe-pricing-table pricing-table-id="prctbl_1MITY4JAVPcahGovs7HnRLh8"
-                publishable-key="pk_live_51M11RPJAVPcahGovEiREaMwKiBPwkISxoivEU95aKWiL2i2BroWq1J4MaHMftiobPGRX1khdeRzyYJePydWhnpbH00ABIFPXgH">
-                </stripe-pricing-table>
+    </section>
+    <section id="content">
+      <div class="container">
+        <div class="p-5">
+          <h2 class="pb-2 border-bottom">Code of Conduct</h2>
+          <p><b>masto.melbourne</b> is committed to providing a positive and inclusive space for our users. We do not
+            tolerate discrimination, harassment, or any kind of drama on our platform.</p>
+          <p>We welcome a variety of discussions and encourage respectful and constructive dialogue among our community.
+            We reserve the right to remove any content that violates our content policy, including but not limited to:
+          </p>
+          <ul>
+            <li> Discrimination or harassment based on race, gender, sexual orientation, age, disability, or any other
+              protected characteristic</li>
+            <li>Threats of violence or harm</li>
+            <li>Spam or irrelevant content</li>
+            <li>Illegal or harmful activities </li>
+            <li>Pornography or sexually explicit content</li>
+            <li>We also reserve the right to suspend or terminate the accounts of users who violate our content policy.
+            </li>
+          </ul>
+          <p>We are dedicated to providing a welcoming and inclusive environment for all of our users, and we appreciate
+            your support in upholding our content policy</p>
+
+          <p><i>While we wish we could, we cannot add every possible rule, and because of this we must mention that if
+              we deem your behaviour or your actions not fit for this server, we have the right to punish.</i></p>
         </div>
+      </div>
+    </section>
+    <section id="team">
+      <div class="spacer layer2"></div>
+      <div class="container-fluid px-4 py-5 team-page">
+        <div class="container">
+          <h2 class="pb-2 border-bottom text-white">Meet The Team</h2>
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3">
+            <div class="col">
+              <div class="card shadow-lg rounded-5">
+                <img class="card-img-top shadow-lg rounded" src="images/finneh.png">
+                <div class="card-body">
+                  <h5 class="card-title fs-1">Jacob (Finneh)</h5> <span
+                    class="badge rounded-pill text-bg-primary fs-4">Operator</span>
+                  <p class="card-text">Operator of <b>masto.melbourne</b>, a decentralized social media platform for
+                    people
+                    living or visiting Melbourne, Australia</p>
+                </div>
               </div>
-              </section>
-    </main>
-    <div class="spacer layer5"></div>
-    <footer>
-      <object data="images/mastodon svg.svg" width="90px" height="90px" style="display:block; margin: auto;" > </object>
-<h2 class="text-center">
-  masto.melbourne
-</h2>
-        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-          <li class="nav-item">
-            <a class="nav-link text-white" aria-current="page" href="#home">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="#features">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="#team">Meet The Team</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="#support">Support Us</a>
-          </li>
-        </ul>
-        <p class="text-center text-white">© 2023 masto.melbourne</p>
-      </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
-  
+            </div>
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col">
+              <div class="card shadow-lg rounded-5">
+                <img class="card-img-top shadow-lg rounded" src="images/binaryadd.jpg">
+                <div class="card-body">
+                  <h5 class="card-title fs-1">BinaryADD</h5> <span
+                    class="badge rounded-pill text-bg-success fs-4">Administrator</span>
+                  <p class="card-text">Bio Text Goes Here</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="spacer layer3"></div>
+    </section>
+    <section id="support">
+      <div class="container-fluid px-4 py-5">
+        <div class="container">
+          <h2 class="pb-2 border-bottom">Support Us</h2>
+        </div>
+        <div>
+          <div class="container">
+            <p>As a community-owned and operated platform, we rely on the support of our users to
+              continue providing a positive and inclusive space for discussions and connections. We are currently
+              accepting financial contributions from our users to help us maintain and improve our platform. </p>
+            <p>Your
+              contributions will go towards things like hosting costs, technical support, and community engagement
+              initiatives. </p>
+            <p>By financially supporting <b>masto.melbourne</b>, you are not only helping to keep our platform
+              running, but you are also supporting a community-owned alternative to large, commercial social media
+              platforms. Your contributions will help us continue to provide a positive and engaging space for urbanists
+              and city enthusiasts to connect and share ideas.</p>
+            <p>
+              If you are able, we encourage you to consider making a
+              financial contribution to <b>masto.melbourne</b>. Every little bit helps, and we are grateful for your
+              support. You
+              can find more information about how to contribute on our website. Thank you for being a part of the
+              <b>masto.melbourne</b> community, and for your support in keeping our platform running.
+            </p>
+          </div>
+          <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
+          <stripe-pricing-table pricing-table-id="prctbl_1MITY4JAVPcahGovs7HnRLh8"
+            publishable-key="pk_live_51M11RPJAVPcahGovEiREaMwKiBPwkISxoivEU95aKWiL2i2BroWq1J4MaHMftiobPGRX1khdeRzyYJePydWhnpbH00ABIFPXgH">
+          </stripe-pricing-table>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div class="spacer layer5"></div>
+  <footer>
+    <div class="container">
+      <object data="images/mastodon svg.svg" width="90px" height="90px" style="display:block; margin: auto;"> </object>
+      <h2 class="text-center">
+        masto.melbourne
+      </h2>
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item">
+          <a class="nav-link text-white" aria-current="page" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#features">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#team">Meet The Team</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#support">Support Us</a>
+        </li>
+      </ul>
+      <p class="text-center text-white">© 2023 masto.melbourne</p>
+        <div class="d-flex justify-content-center align-content-center gap-3">
+          <object data="images/climate.svg" width="20px" height="20px"> </object>
+          <p class="p-0"> <b>Stripe Climate Member</b></p>
+        </div>
+      
+      
+    </div>
+    
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+    integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
+    integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"
+    async></script>
 </body>
+
 </html>

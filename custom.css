@@ -1,73 +1,96 @@
-body{
-    margin-top: 40px;
+:root{
+    --brand: #6364ff;
+}
+body {
+  margin-top: 40px;
 }
 header > .container-fluid {
-    padding-top: 60px;
+  padding-top: 60px;
 }
-section{
-    padding-top: 60px;
+section {
+  padding-top: 60px;
 }
-.hero{
-    background: #C62368;
-    width: 100vw !important;
+.hero {
+  background: #c62368;
+  width: 100vw !important;
 }
-.hero-text{
-    background: rgba(255, 255, 255, 0.5);
+.hero-text {
+  background: rgba(255, 255, 255, 0.5);
 }
 .spacer {
- aspect-ratio: 960/300;
- width: 100%;
- background-repeat: no-repeat;
- background-position: center;
- background-size: cover;
+  aspect-ratio: 960/300;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .layer1 {
-    background-image: url(./spacers/layer1.svg);
+  background-image: url(./spacers/layer1.svg);
 }
 
 .layer2 {
-    background-image: url(./spacers/layer2.svg);
+  background-image: url(./spacers/layer2.svg);
 }
 .layer3 {
-    background-image: url(./spacers/layer3.svg);
+  background-image: url(./spacers/layer3.svg);
 }
 
 .layer4 {
-    background-image: url(./spacers/layer4.svg);
+  background-image: url(./spacers/layer4.svg);
 }
 .layer5 {
-    background-image: url(./spacers/layer5.svg);
+  background-image: url(./spacers/layer5.svg);
 }
 .layer6 {
-    background-image: url(./spacers/layer6.svg);
+  background-image: url(./spacers/layer6.svg);
 }
 
 .layer1::before {
-    content: "";
-    background: #C62368;
+  content: "";
+  background: #c62368;
 }
 
-.team-page{
-    background: #140098;
-    width: 100vw !important;
-;
+.team-page {
+  background: #140098;
+  width: 100vw !important;
 }
 
-footer{
-    background: #009473;
-    color: white;
+footer {
+  background: #009473;
+  color: white;
+}
+footer::after {
+  content: "";
+  background: #009473;
 }
 
-#home{
-    padding-top:0px !important;
+#home, #team {
+  padding-top: 0px !important;
 }
-#home::before{
-    background: #C62368;
+#home::before {
+  background: #c62368;
 }
-#navbar{
-    background: rgba(255, 255, 255, 0.66) !important;
-    backdrop-filter: blur(10px);
-
+#navbar,
+.card {
+  background: rgba(255, 255, 255, 0.66) !important;
+  backdrop-filter: blur(10px);
 }
-
+.text-bg-mastodon {
+  background: var(--brand);
+  color: #fff !important;
+}
+.btn-mastodon {
+  background: var(--brand);
+  --bs-btn-disabled-color: var(--brand);
+}
+.btn-mastodon:hover {
+  background: #6364cc;
+}
+.shadow-harsh {
+  box-shadow: 0 0.125rem 0.25rem rgba(var(--bs-body-color-rgb), 0.75) !important;
+}
+.nav-pills{
+    --bs-nav-pills-link-active-bg: var(--brand);
+    --bs-nav-link-color: var(--brand)
+}
